@@ -4,7 +4,8 @@
 
 # (0) https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 export PYTHONPATH=/usr
-export CROSS_COMPILE=/home/$USER/code/bao/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-
+#export CROSS_COMPILE=/home/$USER/code/bao/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-
+export CROSS_COMPILE=$PWD/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-
 
 # (1)
 export PLATFORM=rpi4
