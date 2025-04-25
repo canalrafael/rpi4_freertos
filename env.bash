@@ -4,14 +4,14 @@
 
 # (0) https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 export PYTHONPATH=/usr
-export CROSS_COMPILE=/home/nyne/code/bao/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-
+export CROSS_COMPILE=/home/$USER/code/bao/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-
 
 # (1)
 export PLATFORM=rpi4
 export DEMO=linux+freertos
 export ARCH=aarch64
 
-export BAO_DEMOS=/home/nyne/code/bao/bao-demos
+export BAO_DEMOS=/home/$USER/code/bao/bao-demos
 export BAO_DEMOS_WRKDIR=$BAO_DEMOS/wrkdir
 export BAO_DEMOS_WRKDIR_SRC=$BAO_DEMOS_WRKDIR/srcs
 export BAO_DEMOS_WRKDIR_BIN=$BAO_DEMOS_WRKDIR/bin
