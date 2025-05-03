@@ -1,0 +1,3 @@
+[submodule "bao-demos/wrkdir/srcs/u-boot"]
+	path = bao-demos/wrkdir/srcs/u-boot
+	url = https://github.com/u-boot/u-boot.git
