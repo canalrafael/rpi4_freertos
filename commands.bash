@@ -15,3 +15,17 @@ cp $ROOT/bao-demos/wrkdir/imgs/rpi4/u-boot.bin /media/$USER/boot		## ...
 cp $ROOT/bao-demos/wrkdir/imgs/rpi4/linux+freertos/bao.bin /media/$USER/boot 	## seemingly the important one
 umount /media/$USER/boot
 
+
+# /home/nyne/code/rpi4_freertos/bao-demos/wrkdir/srcs/bao/src/core/ (+inc)
+
+# /home/nyne/code/rpi4_freertos/bao-demos/wrkdir/srcs
+# 1. diretorios -> vms
+# 2. mudar o NAME= em Makefile para um nome unico
+
+# export BAO_DEMOS_FREERTOS=$BAO_DEMOS_WRKDIR_SRC/freertos(1, 2, 3)
+# make -C $BAO_DEMOS_FREERTOS PLATFORM=$PLATFORM $FREERTOS_PARAMS
+# cp $BAO_DEMOS_FREERTOS/build/$PLATFORM/freertos(1, 2, 3).bin $BAO_DEMOS_WRKDIR_IMGS
+
+# arquivo de configuracao das vms
+# /home/nyne/code/rpi4_freertos/bao-demos/demos/linux+freertos/configs/rpi4.c
+

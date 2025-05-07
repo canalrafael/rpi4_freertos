@@ -12,7 +12,7 @@ export PLATFORM=rpi4
 export DEMO=linux+freertos
 export ARCH=aarch64
 
-export BAO_DEMOS=/home/$USER/code/bao/bao-demos
+export BAO_DEMOS=/home/$USER/code/rpi4_freertos/bao-demos
 export BAO_DEMOS_WRKDIR=$BAO_DEMOS/wrkdir
 export BAO_DEMOS_WRKDIR_SRC=$BAO_DEMOS_WRKDIR/srcs
 export BAO_DEMOS_WRKDIR_BIN=$BAO_DEMOS_WRKDIR/bin
@@ -26,6 +26,9 @@ export BAO_DEMOS_WRKDIR_IMGS=$BAO_DEMOS_WRKDIR_PLAT/$DEMO
 ### [FreeRTOS] + [Linux]
 # https://github.com/bao-project/bao-demos/blob/master/guests/freertos/README.md
 export BAO_DEMOS_FREERTOS=$BAO_DEMOS_WRKDIR_SRC/freertos
+#export BAO_DEMOS_FREERTOS=$BAO_DEMOS_WRKDIR_SRC/freertos1
+#export BAO_DEMOS_FREERTOS=$BAO_DEMOS_WRKDIR_SRC/freertos2
+#export BAO_DEMOS_FREERTOS=$BAO_DEMOS_WRKDIR_SRC/freertos3
 export FREERTOS_PARAMS="STD_ADDR_SPACE=y"
 
 ####

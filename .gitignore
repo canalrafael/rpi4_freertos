@@ -1,2 +1,3 @@
 bao-demos/wrkdir/src/buildroot-aarch65-v6.1
 bao-demos/wrkdir/srcs/linux-v6.1
+bao-demos/wrkdir/imgs/rpi4/linux+freertos/freertos*.bin
