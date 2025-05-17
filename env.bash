@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
+###########################
+
 ### [https://github.com/bao-project/bao-demos/tree/master]
 
 # (0) https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 export PYTHONPATH=/usr
 #export CROSS_COMPILE=/home/$USER/code/bao/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-
-export CROSS_COMPILE=$PWD/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin/aarch64-none-elf-
+export CROSS_COMPILE=$PWD/arm-gnu-toolchain/bin/aarch64-none-elf-
 
 # (1)
 export PLATFORM=rpi4
@@ -61,3 +63,8 @@ export BAO_DEMOS_ATF=$BAO_DEMOS_WRKDIR_SRC/arm-trusted-firmware
 # (Prepare SDCard)
 export BAO_DEMOS_SDCARD_DEV=/dev/sda
 export BAO_DEMOS_SDCARD=/media/$USER/boot
+
+###########################
+
+export CORE_SRC="$BAO_DEMOS_WRKDIR_SRC/bao/src/core/"
+export VMS_SRC="$BAO_DEMOS_WRKDIR_SRC/"
